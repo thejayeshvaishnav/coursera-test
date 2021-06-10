@@ -1,0 +1,192 @@
+body {
+  background-color: peachpuff;
+  background-image: url(https://i.pinimg.com/564x/be/59/ac/be59ac080fa4d3610bea3d3605364518.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: initial;
+  font-kerning: var();
+  color: goldenrod;
+  text-align: center;
+  background-color: white;
+  border: black;
+  border-color: firebrick;
+}
+
+h2,
+h3,
+h4 {
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+div {
+  position: relative;
+  /*		margin-left:  10vw;*/
+}
+
+h5 {
+  position: sticky;
+  color: black;
+  background-color: silver;
+}
+
+section {
+  color: firebrick;
+  background-color: powderblue;
+}
+
+/*p{color: white;
+		background-color: black;
+	}
+*/
+.unipic {
+  size: portrait;
+  height: 500px;
+  width: 500px;
+  border: white;
+  border-radius: 1000px;
+  border-width: medium;
+  border-radius: thick-white-border;
+  border-style: solid;
+  border-color: white;
+}
+
+body {
+  background-color: white;
+}
+
+#redtext {
+  color: darkred;
+  background-color: white;
+  border-color: palevioletred;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+}
+
+.xy {
+  margin-bottom: -25px;
+  text-align: center;
+  color: #fff;
+  border-color: firebrick;
+  border-width: 5px;
+  border-radius: 5px;
+  color: palevioletred;
+  margin: 30px;
+}
+
+.box {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+}
+
+.box-yellow {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration-style: solid;
+  color: whitesmoke;
+}
+
+.box-red {
+  background-color: gray;
+  color: #fff;
+  padding: 30px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+.box-blue {
+  background-color: darkgrey;
+  color: #fff;
+  border-color: lightgoldenrodyellow;
+  border-radius: 5px;
+  border-width: 5px;
+  padding: 20px;
+}
+
+.kalkihead {
+  color: silver;
+  border-color: lightgoldenrodyellow;
+  border-style: solid;
+  background-color: black;
+  border-width: 2px;
+  border-radius: 2px;
+}
+
+.t {
+  background-color: black;
+  border-color: lightgoldenrodyellow;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.vishnuIntro {
+  border-color: lightgoldenrodyellow;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+  background-color: firebrick;
+}
+
+.universeintro {
+  background-color: black;
+  color: whitesmoke;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.universe {
+  background-color: black;
+  color: whitesmoke;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+}
+
+section {
+  color: white;
+  background-color: black;
+}
+
+h6 {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+
+.roundpic {
+  size: portrait;
+  height: 500px;
+  width: 500px;
+  border: white;
+  border-radius: 1000px;
+  border-width: medium;
+  border-radius: thick-white-border;
+  border-style: solid;
+  border-color: white;
+}
+
+.kalki {
+  size: portrait;
+  height: 500px;
+  width: 500px;
+  border: white;
+  border-radius: 1000px;
+  border-width: medium;
+  border-radius: thick-white-border;
+  border-style: solid;
+
+  border-color: white;
+}
