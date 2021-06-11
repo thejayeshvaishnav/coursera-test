@@ -13,6 +13,9 @@ h1 {
   background-color: white;
   border: black;
   border-color: firebrick;
+  border-style: outset;
+  padding: 10px;
+  margin: 30px;
 }
 
 h2,
@@ -189,4 +192,40 @@ h6 {
   border-style: solid;
 
   border-color: white;
+}
+
+ol {
+  background-color: black;
+  color: blanchedalmond;
+  border: crimson;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: groove;
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+}
+section {
+  background-color: darkgreen;
+  color: black;
+  border: cornflowerblue;
+  border-radius: 10px;
+  border-width: 10px;
+  text-align: center;
+  border-style: inset;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.video {
+  color: #000;
+  background-color: lavenderblush;
+  border: lightgrey;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 5px;
+  margin: inherit;
+}
+iframe {
+  width: 500px;
+  height: 500px;
+  justify-content: center;
 }

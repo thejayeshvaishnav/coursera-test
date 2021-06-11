@@ -4,8 +4,12 @@
 	<meta charset="utf-8"/>
 	<title>This is Jayesh-></title>
 	<link href="styles.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 </head>
 <body>
+
+
 
 <h1> THE CHOSEN ONE  </h1>
 <br/>
@@ -18,12 +22,13 @@
 <h3> Kinda new to this thing so forgive me if I do something wrong </h3>
 <h4>I have got god with me so wait for me to turn the tables</h4>
 <h1 class="xy">PURPOSE</h1>
-<h5>Here are some songs that I like </h5>
+<br/>
 <div class="box box-yellow">SOME POPULAR QUOTES :
 	<h5 class="box box-red">"AB HUMARI BAAT NAHI HOTI"<br/>-CHARLIE PUTH</h5>
 	<h5 class="box box-blue">"ISS ZINDAGI ME MEI NAHI BADAL SAKTA"<br/>-TRAVIS SCOTT</h5>
 </div>
 <div class="silver-background">
+	<h5>Here are some songs that I like </h5>
 	<ol>
 		<li>Pani da rang</li>
 		<li>Gods plan</li>
@@ -75,16 +80,43 @@
 <center>
 	<img class="unipic" src="https://www.innovationnewsnetwork.com/wp-content/uploads/2020/12/oldest-galaxy-in-the-Universe.jpg"></img>
 </center>
-<p class="universe"><head>GOD RELATED WITH UNIVERSE:-</head>
+<p id = "universe" class="universe"><head>GOD RELATED WITH UNIVERSE:-</head>
 	<br/>
 	<br/>Any theistic view of the world includes some notion of how God is related to the structures of the universe, including space and time. The question of God’s relation to time has generated a great amount of theological and philosophical reflection. The traditional view has been that God is timeless in the sense of being outside time altogether; that is, he exists but does not exist at any point in time and he does not experience temporal succession. What may be the dominant view of philosophers today is that he is temporal but everlasting; that is, God never began to exist and he never will go out of existence. He exists at each moment in time.
-
+	<br/>
 
 </p>
+<br/>
+<div class="video"><head> HERE IS THE VIDEO OF THE UNIVERSE:-</head>
+<br/></div>
+<div style="width: 100%; display:flex; border: solid 1px red;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Un5SEJ8MyPc?autoplay=1></iframe>
+
+
+</div>	
+
+<!-- <button onclick="changeContent()">
+	Atheist Button
+</button>
+
+<button onclick="changeContentBack()">
+	I am believer
+</button> -->
 
 
 </body>
 
+<script>
+	var originalContent = universeContent.innerText.innerText;
+	function changeContent() {
+		var universeContent = document.getElementById("universe");
+		universeContent.innerText = "I dont believe in universe and god";
+	}
 
-</body>
+	function changeContentBack() {
+		var universeContent = document.getElementById("universe");
+		universeContent.innerText = "Any theistic view of the world includes some notion of how God is related to the structures of the universe, including space and time. The question of God’s relation to time has generated a great amount of theological and philosophical reflection. The traditional view has been that God is timeless in the sense of being outside time altogether; that is, he exists but does not exist at any point in time and he does not experience temporal succession. What may be the dominant view of philosophers today is that he is temporal but everlasting; that is, God never began to exist and he never will go out of existence. He exists at each moment in time";
+	}
+
+</script> 
 </html>
