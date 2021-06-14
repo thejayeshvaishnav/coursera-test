@@ -16,7 +16,8 @@ body {
   height: 300px;
   transition: 3s ease;
 }
-.penguin:hover {
+.penguin:hover,
+.penguin:active {
   transform: scale(1.6);
 }
 
